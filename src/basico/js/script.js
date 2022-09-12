@@ -1,4 +1,5 @@
-function calcularMedia( notas ) {
+// function calcularMedia( notas ) {
+const calcularMedia = ( notas ) => {
 
     let soma = 0;
     for( c = 0; c < notas.length; c++) {
@@ -13,7 +14,8 @@ function calcularMedia( notas ) {
 
 let media; // escopo global
 
-function aprovacao( notas ) {
+// function aprovacao( notas ) {
+const aprovacao = ( notas ) => {
 
     let media = calcularMedia( notas ); // escopo da função
 
@@ -26,7 +28,8 @@ function aprovacao( notas ) {
 
 // Função Recursivas
 
-function contagemRegressiva(numero){
+// function contagemRegressiva(numero){
+const contagemRegressiva = ( numero ) => {
 
     console.log(numero);  
     

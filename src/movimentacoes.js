@@ -44,3 +44,7 @@ const m05 = new Movimentacao('Bank X', 'contas', -1000)
 const registro01 = new Registro(22,10,2021)
 registro01.novaMovimentacao(m01, m02, m03, m04, m05)
 console.log('O saldo dos registros ' + registro01.resumo())
+
+const movimentacoesGerais = [m01, m02, m03, m04, m05]
+
+movimentacoesGerais.map( elemento => console.log(elemento.banco.length))
