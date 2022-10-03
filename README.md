@@ -17,3 +17,18 @@
 - Frameworks
 - De fato são "funções especiais"
 - Método construtor: construtor
+## Arrow Functions
+ - Multiplos parâmetros: (p1, p2, ..., pN) => { expressao }
+ - Expressão / Algoritmo simples: (p1, p2) => expressao 
+ - Único parâmetro: p1 => { expressao }
+
+ # Manipulação de Dados
+
+- JavaScript trabalha com tipagem dinâmica (números, textos, strings, objetos, arrays)
+ `let x = 0` 
+ `x = 'a'`
+
+
+
+ # Export e Import
+ - São recursos do EcmaScript Modules
