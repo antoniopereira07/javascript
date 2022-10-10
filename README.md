@@ -48,6 +48,6 @@ https://www.typescriptlang.org/
 
 
 ## Framework
-- React 
+- React (https://pt-br.reactjs.org/)
 - Vue.js (https://vuejs.org/)
 - Angular (https://angular.io/)
